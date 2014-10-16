@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+/*
+共通 / Common
+*/
+
+/*
+### 道具 / Tools
+コーディングを助ける秘密道具です。
+
+#### compass
+Sassを補助するツールです。
+
+#### partials/ptp-*
+各font-sizeが何％なのかが代入してある変数です。
+
+#### mixins
+Sassのmixinはここにまとめてください。
+
+#### functions
+Sassのfunctionはここにまとめてください。
+
+#### site-setting
+サイトごとの変数です。横幅、色などを定義して各scssで使用してください。
+*/
+
+@import "compass",
+        "partials/ptp-14",
+        "tools/mixins",
+        "tools/functions",
+        "tools/site-setting";
+
+
+
+/*
+### 基礎 / Base
+*/
+@import "compass/reset",
+        "base/foundation";
+
+
+
+/*
+### 部品 / Module
+*/
+
+@import "module/button",
+        "module/border",
+        "module/form",
+        "module/gallery",
+        "module/header",
+        "module/icon",
+        "module/list",
+        "module/navigation",
+        "module/other",
+        "module/paragraphs",
+        "module/section",
+        "module/sns",
+        "module/table",
+        "module/text";
+
+
+
+/*
+### レイアウト / Layout
+
+```
+<div id="wrapper"></div>
+<div id="container"></div>
+<div id="primary"></div>
+<div id="secondary"></div>
+```
+*/
+
+@import "layout/wrapper",
+        "layout/container",
+        "layout/header",
+        "layout/footer",
+        "layout/section";
+
+
+
+/*
+### 状態 / State
+
+各要素の状態です。
+
+```
+<p class="button-1 is-active">ボタン</p>
+```
+*/
+
+@import "state/state";
+
+
+
+/*
+### Unique
+
+サイト特有のスタイルです。
+*/
+
+@import "unique/common",
+				"unique/other";
+
