@@ -20,6 +20,16 @@ CSS設計に[BEM](http://bem.info/)と[SMACSS](http://smacss.com/)を取り入�
 
 ### カテゴライズ
 
+* base - サイト全体に関わるスタイル
+* image - base64エンコードした画像の定義
+* layout - レイアウトを定義するスタイル
+* module - 独立した構成要素
+* state - 状態の定義
+* theme - テーマの定義
+* tools - 変数やMixin
+* unique - サイト特有のスタイル
+
+
 ### 命名規則
 
 ```
