@@ -2,9 +2,10 @@
 # Container
 */
 
-.layout-container-1 {
+.l-container-1 {
 	@include legacy-pie-clearfix;
 }
+
 
 
 
@@ -12,10 +13,16 @@
 # Primary
 */
 
-.layout-primary-1 {
+
+/*
+## .l-primary-1
+*/
+
+.l-primary-1 {
 	overflow: hidden;
 	position: relative;
 }
+
 
 
 
@@ -23,7 +30,12 @@
 # Secondary
 */
 
-.layout-secondary-1 {
+
+/*
+## .l-secondary-1
+*/
+
+.l-secondary-1 {
 	float: left;
 }
 

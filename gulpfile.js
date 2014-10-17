@@ -31,3 +31,9 @@ gulp.task('watch', function(){
 //
 gulp.task('default', ['watch']);
 
+
+//
+gulp.task('styledocco', shell.task([
+	'styledocco -n "StyleGuide" --preprocessor "sass --compass" -o styleguide public_html/assets/_scss'
+]));
+

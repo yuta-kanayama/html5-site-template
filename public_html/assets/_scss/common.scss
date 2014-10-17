@@ -23,7 +23,7 @@ Sassのfunctionはここにまとめてください。
 */
 
 @import "compass",
-        "partials/ptp-14",
+        "tools/font-size/ptp-14",
         "tools/mixins",
         "tools/functions",
         "tools/site-setting";
@@ -50,8 +50,8 @@ Sassのfunctionはここにまとめてください。
 ## 部品 / Module
 */
 
-@import "module/button",
-        "module/border",
+@import "module/border",
+        "module/button",
         "module/form",
         "module/gallery",
         "module/header",
@@ -64,7 +64,8 @@ Sassのfunctionはここにまとめてください。
         "module/section",
         "module/sns",
         "module/table",
-        "module/text";
+        "module/text",
+        "module/topic-path";
 
 
 
@@ -73,9 +74,9 @@ Sassのfunctionはここにまとめてください。
 
 ```
 <div id="wrapper"></div>
-<div id="container"></div>
-<div id="primary"></div>
-<div id="secondary"></div>
+<div class="l-container"></div>
+<div class="l-primary"></div>
+<div class="l-secondary"></div>
 ```
 */
 
