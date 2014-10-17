@@ -1,26 +1,24 @@
-@charset "utf-8";
-
 /*
-共通 / Common
+# 共通 / Common
 */
 
 /*
-### 道具 / Tools
+## 道具 / Tools
 コーディングを助ける秘密道具です。
 
-#### compass
+### compass
 Sassを補助するツールです。
 
-#### partials/ptp-*
+### partials/ptp-*
 各font-sizeが何％なのかが代入してある変数です。
 
-#### mixins
+### mixins
 Sassのmixinはここにまとめてください。
 
-#### functions
+### functions
 Sassのfunctionはここにまとめてください。
 
-#### site-setting
+### site-setting
 サイトごとの変数です。横幅、色などを定義して各scssで使用してください。
 */
 
@@ -31,17 +29,25 @@ Sassのfunctionはここにまとめてください。
         "tools/site-setting";
 
 
+/*
+## 画像 / Image
+*/
+
+//@import "image/";
+
+
 
 /*
-### 基礎 / Base
+## 基礎 / Base
 */
+
 @import "compass/reset",
         "base/foundation";
 
 
 
 /*
-### 部品 / Module
+## 部品 / Module
 */
 
 @import "module/button",
@@ -51,6 +57,7 @@ Sassのfunctionはここにまとめてください。
         "module/header",
         "module/icon",
         "module/list",
+        "module/message",
         "module/navigation",
         "module/other",
         "module/paragraphs",
@@ -62,7 +69,7 @@ Sassのfunctionはここにまとめてください。
 
 
 /*
-### レイアウト / Layout
+## レイアウト / Layout
 
 ```
 <div id="wrapper"></div>
@@ -81,7 +88,7 @@ Sassのfunctionはここにまとめてください。
 
 
 /*
-### 状態 / State
+## 状態 / State
 
 各要素の状態です。
 
@@ -95,7 +102,7 @@ Sassのfunctionはここにまとめてください。
 
 
 /*
-### Unique
+## Unique
 
 サイト特有のスタイルです。
 */

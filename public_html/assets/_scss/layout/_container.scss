@@ -2,3 +2,28 @@
 # Container
 */
 
+.layout-container-1 {
+	@include legacy-pie-clearfix;
+}
+
+
+
+/*
+# Primary
+*/
+
+.layout-primary-1 {
+	overflow: hidden;
+	position: relative;
+}
+
+
+
+/*
+# Secondary
+*/
+
+.layout-secondary-1 {
+	float: left;
+}
+
